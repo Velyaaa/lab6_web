@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6 - Admin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">Welcome to Lab6!</h1>
+        <nav id="navbar">
+            <a href="#" class="close-btn" aria-label="Close navigation">✕</a>
+            <ul>
+                <li><a href="admin.html">Admin Page</a></li>
+                <li><a href="viewer.html">Viewer Page</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-controls">
+            <a href="#navbar" class="mobile-btn" aria-label="Відкрити навігацію">Навігація</a>
+            <a href="#leftSideBar" class="mobile-btn" aria-label="Відкрити категорії">Категорії зі знижками</a>
+            <a href="#rightSideBar" class="mobile-btn" aria-label="Відкрити відгуки">Відгуки</a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="topSection">
+                <aside id="leftSideBar">
+                    <a href="#" class="close-btn" aria-label="Close categories">✕</a>
+                    <h2>Категорії зі знижками</h2>
+                    <ol class="discountСategories">
+                        <li><a href="#">Одяг</a></li>
+                        <li><a href="#">Електроніка</a></li>
+                        <li><a href="#">Аксесуари</a></li>
+                        <li><a href="#">Книги</a></li>
+                        <li><a href="#">Товари для дому</a></li>
+                    </ol>
+                </aside>
+
+                <section id="contentArea">
+                    <div class="contentAreaHeading">
+                        <h2>Налаштування вкладок</h2>
+                    </div>
+
+                    <div id="tabs-config-form">
+                        <p>Тут згодом з'явиться форма для налаштування...</p>
+                    </div>
+                </section>
+            </div>
+
+            <section id="bottomBar">
+                <p>Акції дійсні до 01.01.2026*</p>
+            </section>
+        </div>
+
+
+        <aside id="rightSideBar">
+            <a href="#" class="close-btn" aria-label="Close reviews">✕</a>
+            <h2>Відгуки клієнтів</h2>
+            <h4>User1</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+            <h4>User2</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit recusandae voluptatem eum molestiae
+                blanditiis nesciunt nisi explicabo similique dolor repellat praesentium nobis, libero illum quo neque
+                architecto necessitatibus beatae dignissimos?</p>
+
+            <h4>User3</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit recusandae voluptatem eum molestiae
+                blanditiis nesciunt nisi explicabo similique dolor repellat praesentium nobis, libero illum quo neque
+                architecto necessitatibus beatae dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit recusandae voluptatem eum molestiae
+                blanditiis nesciunt nisi explicabo similique dolor repellat praesentium nobis, libero illum quo neque
+                architecto necessitatibus beatae dignissimos?</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 Lab6 by Velidchenko Serhii.</p>
+
+        <img src="images/partners.png" usemap="#image-map">
+
+        <map name="image-map">
+            <area target="" alt="colgate" title="colgate" href="https://www.colgate.com.ua/" coords="0,1,102,41" shape="rect">
+            <area target="" alt="sony" title="sony" href="https://www.sony.ua/" coords="197,1,336,41" shape="0">
+            <area target="" alt="3m" title="3m" href="https://www.3m.com.ua/3M/uk_UA/company-cis/" coords="548,41,421,0"
+                shape="0">
+            <area target="" alt="adidas" title="adidas"
+                href="https://www.adidas.ua/?srsltid=AfmBOopXGPaH1873hWRVitAEXsot47mzp2UO3tCVus15wtVIQyhRwSJn"
+                coords="763,40,625,1" shape="0">
+            <area target="" alt="visa" title="visa" href="https://www.visa.com.ua/uk_UA" coords="866,0,954,41" shape="0">
+        </map>
+       
+    </footer>
+    <script src="admin.js"></script>
+</body>
+
+</html>
